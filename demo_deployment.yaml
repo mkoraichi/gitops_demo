@@ -13,7 +13,7 @@ spec:
         app: gitops-demo
     spec:
       containers:
-      - image: koraichi/nginx_demo:0.2
+      - image: koraichi/nginx_demo:0.3
         name: main
         ports:
         - containerPort: 80
